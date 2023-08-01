@@ -1,0 +1,81 @@
+.calculator {
+    text-align: center;
+    margin-top: 100px;
+    height: 480px;
+    width: 300px;
+    background-color: gray;
+    border-radius: 5%;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#input1 {
+    width: 260px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 25px;
+    border-style: solid;
+    border-color: white;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    background-color: white;
+}
+
+#input2 {
+    width: 260px;
+    height: 40px;
+    margin-top: -1px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 25px;
+    border-style: solid;
+    border-color: white;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    background-color: white;
+}
+
+#one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #zero, #multiply, #devide, #plus, #minus, #point, #equal {
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    margin-top: 15px;
+    border-radius: 20%;
+}
+
+#numbers {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#clear, #on-off {
+    height: 50px;
+    width: 130px;
+    margin-top: 15px;
+    border-radius: 10%;
+}
+
+#numbers {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+input {
+    text-align: end;
+}
+
+button:hover {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.bgcc {
+    background-color: rgba(0,0,0,.8);
+    transition-duration: 2s;
+}
